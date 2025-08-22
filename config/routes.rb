@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :adverse_effects do
     get :filtered, on: :collection
+    get :manufacturers
   end
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

@@ -6,6 +6,8 @@
      <%= link_to effect, filtered_adverse_effects_path(effect: effect) %> |
 <% end %>
 <hr>
+View ranked list of serious side effect manufacturers: <%= link_to "View", manufacturers_adverse_effects_path %>
+<hr>
 <ul>
 <% @results.each do |result| %>
     <li><%= result['products'][0]['brand_name'] %></p>
