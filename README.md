@@ -22,6 +22,8 @@ I debated Python or Rails, and decided I liked the view work on Rails better tha
 
 I decided not to load a database, and do it all in view/controller. This was a decision on getting some results fast to play with. I didn't rule it out but doing a data model would have taken longer, and I wasn't 100% on the FDA data coming back yet. Working thorugh a live result would have familiarized myself enough to get it working operationally. I wasn't sure I'd have time for hte other features- and I didn't- so glad I didn't spend time on the model. 
 
+I did not have time to read in detail the larger schematics to how the fields were related to each other, so I did a simple assessment based on names, ids. Another reason why I did not build a database at this point.
+
 ## Improvements
 
 Pagination for sure. I would read more from the API and provide an idea of how many more results.
