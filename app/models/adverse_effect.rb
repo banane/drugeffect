@@ -1,0 +1,2 @@
+class AdverseEffect < ApplicationRecord
+end

@@ -1,0 +1,13 @@
+<h1>Drugs:</h1>
+<hr>
+<p>Filter by Adverse Effect:</p>
+<br />
+<% @seriouseffects.each do |effect| %>
+     <%= link_to effect, filtered_adverse_effects_path(effect: effect) %> |
+<% end %>
+<hr>
+<ul>
+<% @results.each do |result| %>
+    <li><%= result['products'][0]['brand_name'] %></p>
+<% end %>
+</ul>

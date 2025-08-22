@@ -1,0 +1,11 @@
+<h1>Drugs: With Seriousness: #{@effect}</h1>
+<hr>
+<p>Filter by Adverse Effect: <%= link_to "clear filters", adverse_effects_path %></p>
+<hr>
+<ul>
+
+<% @results.each do |result| %>
+    <li><%= result['patient']['drug'][0]['medicinalproduct'] %></p>
+<% end %>
+</ul>
+
