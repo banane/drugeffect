@@ -12,4 +12,7 @@ This example app does one feature: lists the drugs from the FDA, and allows you 
 
 No database setup required as this pulls directly from the API.
 
+## TODO
+- Included a branch 'manufacturers' for an in progress  work on stacked rank list of manufacturers with serious adverse effects reports.
+
 
