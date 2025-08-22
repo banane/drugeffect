@@ -1,24 +1,15 @@
-# README
+# Drug Effect
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
 
-Things you may want to cover:
+This example app does one feature: lists the drugs from the FDA, and allows you to filter by serious side effects (as reported).
 
-* Ruby version
+## Installation
 
-* System dependencies
+1. Add your OpenFDA.gov API key to adverse_effects_controller, Line 4, [Insert Your Key Here]
+2. On the command line, in the directory of this repository, run `bundle exec rails s`
+3. In a browser, access "localhost:3000"
 
-* Configuration
+No database setup required as this pulls directly from the API.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
